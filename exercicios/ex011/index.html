@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="image/image-p.png" type="image/png"> <!-- A MENOR IMAGEM PRIMEIRO, PORQUE É PELA ORDEM . NÃO DÁ PRA DECLARAR MAX WIDTH 750 SE O PRIMEIRO CÓDIGO DECLARA 1050PX. PRIMEIRO A MENOR IMAGEM, LEMBRAR SEMPRE-->
+        <source media="(max-width: 1050px)" srcset="image/image-m.png" type="image/png"> <!-- vai carregar a foto grande, mas se meu navegador for menos do que 1000px, menos de mil, ele vai carregar a foto M-->
+        <img src="image/image-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <h2>Formato 1</h2>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+    <h2>Formato 2 (mais compatível)</h2>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg"> <!-- ELE CARREGA TUDO DE CIMA A BAIXO, ENTÃO ESSE VAI SER O PRIMEIRO CARREGADO. SE O ARQUIVO NÃO EXISTIR, ELE VAI TENTAR O ARQUIVO DE BAIXO, E SE NÃO TIVER, VAI CARREGAR O OUTRO DE BAIXO, E ASSIM VAI. SE NÃO EXISTIR NENHUM DOS 3 ARQUIVOS, O PARÁGRAFO VAI APARECER, COMO O EXEMPLO ALI EM BAIXO-->
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav"> <!-- evitar arquivo .wav porque é pesadissimo-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>

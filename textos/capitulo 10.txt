@@ -1,0 +1,16 @@
+O que é um link nofollow?
+
+Um link nofollow é um tipo de link que contém uma instrução específica no código HTML, sinalizando aos motores de busca que aquele link não deve transmitir "autoridade" ou "valor" para a página de destino. 
+Em termos simples, um link nofollow informa aos algoritmos dos motores de busca que, embora exista uma ligação entre as páginas, essa relação não deve influenciar o ranqueamento do site vinculado. Para fazer isso, o atributo rel="nofollow" é adicionado ao código do link.
+Ao contrário dos links dofollow, que transmitem relevância e autoridade, os links nofollow não influenciam diretamente a classificação do site nos resultados de busca. Isso significa que, mesmo que um site receba um grande número de links nofollow, eles não irão contribuir para a melhoria da autoridade de domínio ou da página, nem o ajudarão diretamente a subir nas páginas de resultados dos motores de busca (SERPs).
+Existem várias situações em que o uso de links nofollow é recomendado, especialmente quando se quer evitar passar autoridade para sites externos de forma não controlada. Alguns exemplos incluem:
+
+    Comentários de blogs: muitos sites e blogs adicionam o atributo nofollow aos links em comentários feitos pelos usuários. Isso evita que pessoas tentem manipular o SEO, criando links para seus próprios sites com o objetivo de ganhar autoridade de forma artificial.
+
+
+    Links para sites não confiáveis ou irrelevantes: se você estiver linkando para uma fonte que não é completamente confiável ou que não é diretamente relacionada ao seu conteúdo, usar o atributo nofollow pode ser uma maneira de evitar associar seu site a um conteúdo de qualidade questionável, sem prejudicar sua autoridade de SEO.
+
+
+Em resumo, os links nofollow não passam autoridade, mas são úteis para controlar a qualidade dos links associados ao seu site. Eles permitem que você ofereça aos usuários acesso a mais conteúdo sem comprometer a estratégia de SEO e protegem seu site de possíveis penalidades por links não confiáveis ou manipuladores.
+
+rel="nofollow"
