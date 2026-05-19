@@ -3,4 +3,4 @@ Curso de HTML e CSS
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://holyskywalker.github.io/html-css/desafios/d010/">Acessar o Desafio n10</a>
+<a href="https://holyskywalker.github.io/html-css/exercicios/ex021/">Acessar o Exercício n21</a>
