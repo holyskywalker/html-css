@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* Configurações Media Queries*/
+
+/* NAV BAR PC
+
+menu {
+    display: block;
+    font-size: 1.1em;
+}
+
+menu > ul > li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+menu > ul > li a {
+    padding: 4px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(27, 27, 27);
+    width: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+menu > ul > li > a:hover {
+    background-color: rgb(219, 219, 219);
+    color: black;
+    transition-duration: 0.2s;
+} 
+*/

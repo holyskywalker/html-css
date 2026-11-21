@@ -36,7 +36,7 @@ main > article {
     margin: auto;
     margin-top: 10px;
     background-color: white;
-    width: 55vw;
+    width: 90vw;
     border-radius: 10px;
 }
 
@@ -48,27 +48,30 @@ main > article > h1 {
 main > article > p {
     text-indent: 20px;
     font-size: 1em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
 }
 
 
 /* NAV BAR */
 
 menu {
-    display: block;
     font-size: 1.1em;
 }
 
 menu > ul > li {
-    display: inline-block;
+    display: block;
+    list-style-type: none;
+    padding: 1px;
 }
 
 menu > ul > li a {
     padding: 4px;
     text-align: center;
-    display: inline-block;
+    display: block;
+    margin: auto;
     background-color: rgb(27, 27, 27);
-    width: 100px;
+    width: 100vw;
     text-decoration: none;
     color: white;
 }
